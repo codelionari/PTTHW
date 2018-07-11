@@ -1,0 +1,49 @@
+```input
+#prompt the user to state if the dose is being changed from oral to IV
+
+print ("are you converting Oral to IV")
+print ("if you want that hit RETURN")
+print ("if you dont want to convert the dose hit CTRL+C")
+
+input("?")
+
+print ("have you checked the Ciclo Blood Level?")
+print ("is the Blood Level less than 150nanograms then hit RETURN")
+print ("if not hit CTRL+C")
+
+input("?")
+
+
+print ("Enter the dose")
+ciclo = int(input())
+#once the dose has been entered divide it by 3
+
+
+
+
+def divide(a, b):
+    print ("DIVIDING %d / %d" % (a, b))
+
+    return a / b
+
+
+what = divide (ciclo, 3)
+print(what)
+
+print("have you ensured the doses are given at adeuqate times for the nursing staff?")
+print ("if you want that hit RETURN")
+print ("if you dont want to convert the dose hit CTRL+C")
+
+input("?")
+
+
+
+print("have you told staff that you have prescribed Ciclosporin")
+print("if you want that hit RETURN")
+print("if you dont want to convert the dose hit CTRL+C")
+
+input("?")
+
+print("Do not KILL the Patient")
+input("?")
+```
